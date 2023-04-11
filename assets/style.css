@@ -1,0 +1,132 @@
+
+@font-face { 
+    font-family: 'ComicSansMSBold';
+    src: url('ComicSansMSBold.ttf');
+} 
+* { 
+    box-sizing: border-box;
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px;
+}
+body { 
+    background-attachment: fixed; 
+    background-color: initial; 
+    background-image: url("bg.svg"); 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    overflow-x: hidden;
+}
+.container { 
+    position: absolute; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100vw; 
+    height: 100vh; 
+}
+.card { 
+    height: 520px; 
+    width: 366px; 
+    background-color: #1c1711; 
+    box-shadow: 0px 5px 40px -11px rgb(0, 0, 0); 
+    border-top-left-radius: 32px; 
+    border-top-right-radius: 32px; 
+    border-bottom-right-radius: 32px; 
+    border-bottom-left-radius: 32px; 
+}
+.card-header { 
+    width: 100%; 
+    height: 200px; 
+    padding-top: 30px; 
+    padding-right: 0; 
+    padding-bottom: 0; 
+    padding-left: 0; 
+    display: flex; justify-content: center; 
+}
+.avatar { 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+}
+.card-navigation { 
+    width: 100%; 
+    height: 140px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin-top: 30px; 
+    padding-top: 0; 
+    padding-right: 40px; 
+    padding-bottom: 0; 
+    padding-left: 40px;
+}
+a {
+    text-decoration: none;
+    font-family: 'ComicSansMSBold', sans-serif; 
+    color: #be934e; 
+    font-size: 27px; 
+    font-weight: bold;
+    text-align: center;
+}
+a:hover { 
+    text-decoration: none;
+    font-family: 'ComicSansMSBold', sans-serif; 
+    color: #856238; 
+    font-size: 27px; 
+    font-weight: bold;
+    text-align: center;
+}
+button.link { 
+    height: 40px; 
+    background-color: #be934e; 
+    border-top-left-radius: 30px; 
+    border-top-right-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+    border-bottom-left-radius: 30px; 
+    color: rgb(0, 18, 32); 
+    font-size: 24px; 
+    font-weight: bold; 
+    font-family: 'ComicSansMSBold', sans-serif; 
+    cursor: pointer; 
+    transition-property: all; 
+    transition-duration: 0.3s; 
+    transition-timing-function: initial; 
+    transition-delay: initial; 
+    border-top-color: initial; 
+    border-top-style: none; 
+    border-top-width: initial; 
+    border-right-color: initial; 
+    border-right-style: none; 
+    border-right-width: initial; 
+    border-bottom-color: initial; 
+    border-bottom-style: none; 
+    border-bottom-width: initial; 
+    border-left-color: initial; 
+    border-left-style: none; 
+    border-left-width: initial; 
+    outline-style: none; 
+    margin-top: 10px; 
+}
+button.link:hover { 
+    background-color: #856238; 
+}
+button.link:nth-child(+1) { 
+    width: 150px; 
+}
+button.link:nth-child(+2) { 
+    width: 140px; 
+}
+button.link:nth-child(+3) { 
+    width: 130px; 
+}
+button.link:nth-child(+4) { 
+    width: 120px; 
+}
+button.link:nth-child(+5) { 
+    width: 120px; 
+}
